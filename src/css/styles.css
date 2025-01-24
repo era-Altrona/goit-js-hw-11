@@ -16,3 +16,103 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+ul,
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  cursor: pointer;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.conteiner {
+  width: 1440px;
+  height: auto;
+  padding: 36px 150px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 32px;
+}
+
+.input {
+  flex: 1;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color .3s ease;
+}
+
+.input:hover {
+  border: 1px solid #000000;
+}
+
+.input:active {
+  border: 1px solid #4e75ff;
+}
+
+.button {height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.button:hover {
+  background-color: #6c8cff;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+}
+.gallery-item {
+  border: 1px solid #808080;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
+.inform {
+  display: flex;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  justify-content: space-around;
+}
+
+.inform-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.inform-dan {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #2e2f42;
+}
